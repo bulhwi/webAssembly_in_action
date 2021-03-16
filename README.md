@@ -11,3 +11,16 @@
 
 
 [웹어셈블리로 컴파일 가능한 언어와 자체 VM을 갖고 있는 언어를 정리해놓은 사이트](https://github.com/appcypher/awesome-wasm-langs)
+
+### 실행환경
+window wsl2 Ubuntu 18.04 LTS
+
+```bash
+    cd emsdk
+    git pull
+    ./emsdk install latest
+    ./emsdk activate latest
+    source ./emsdk_env.sh
+    emcc -v
+```
+테스트 버전은 2.0.15임 
